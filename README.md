@@ -213,16 +213,16 @@ or
 
 visit http://192.168.99.102:30001/
 
-**Ingress:** 
+# Ingress
 
-To enable the NGINX Ingress controller, run the following command:
+**To enable the NGINX Ingress controller, run the following command:**
 
-   minikube addons enable ingress  
+    minikube addons enable ingress  
 
-Create the Ingress object by running the following command:
+**Create the Ingress object by running the following command:**
 
-   kubectl apply -f https://k8s.io/examples/service/networking/example-ingress.yaml
+    kubectl apply -f https://k8s.io/examples/service/networking/example-ingress.yaml
 
-Add the following line to the bottom of the /etc/hosts file on your computer (you will need administrator access):
+**Add the following line to the bottom of the /etc/hosts file on your computer (you will need administrator access):**
 
     192.168.99.102 local.astriauniversity.com
