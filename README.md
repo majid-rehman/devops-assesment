@@ -1,9 +1,9 @@
 # Kubernetes Getting Started (Minikube)
 # Usage 
 
-    git clone https://github.com/majidkhan138/DevOps-Test-Majid.git
+    git clone https://github.com/majid-rehman/devops-assesment.git
 
-    cd DevOps-Test-Majid
+    cd devops-assesment
 
 # Kubernetes (minikube) Environment Setup
  - You must have Docker installed on your system
