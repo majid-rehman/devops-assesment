@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: example-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+spec:
+  rules:
+    - host: local.astriauniversity.com
+      http:
+        paths:
+          - path: /author
+            pathType: Prefix
+            backend:
+              service:
+                name: devops-test-majid
+                port:
+                  number: 30001
