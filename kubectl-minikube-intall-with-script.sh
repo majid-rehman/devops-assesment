@@ -1,8 +1,6 @@
 #!/bin/bash
 
 # I have use old version because these were already installed on my system , 
-# You can use latest versions of minikube and kubectl. minikube latest version v0.32.0 , kubectl version v1.13.0
-
 ARCH=$(uname | awk '{print tolower($0)}')
 TARGET_VERSION="v0.15.0"
 MINIKUBE_URL="https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64"
